@@ -5,6 +5,7 @@ Pros:
 - it costs half than native development
 - multi-platform deployment with one code base
 - updates without going through AppStore/GooglePlay approval process
+
 Cons:
 - harder to maintain on operating system upgrades
 - dependent on community support
