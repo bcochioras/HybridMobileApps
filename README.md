@@ -179,3 +179,28 @@ Cons:
 </tr>
 </tbody>
 </table>
+
+# React Native
+## Prerequirements: 
+- Visual Studio Code + React Native Plugin  React Native setup
+- brew install node -> installs node, compiler for javascript to work on backend
+- brew install watchman -> installs watchman, package that checks for file changes for recompiling
+- npx react-native@latest init ReactNativeProject -> creates a new project with latest react native version
+
+## Running the project: 
+- npm start -> starts the React Native project, needs to be run in the project folder  
+- Run instructions for iOS:
+  - cd "/Users/username/Projects/ReactNativeProject/ios"
+  - Install Cocoapods
+    - bundle install # you need to run this only once in your project.
+    - bundle exec pod install
+    - cd ..
+    - npx react-native run-ios
+
+# Flutter 
+## Prerequirements: 
+- Visual Studio Code + Flutter plugin 
+- install fluter SDK through Visual Studio Code: https://docs.flutter.dev/get-started/install/macos/mobile-ios  
+## Debugging (In Visual studio code): 
+- widget inspector -> View layout sizings and layers 
+- CMD + SHIFT + P -> Select device to run
